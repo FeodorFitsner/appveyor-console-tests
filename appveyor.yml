@@ -1,0 +1,64 @@
+test: off
+
+build_script:
+- ps: >-
+    Write-Host "A.." -NoNewline
+
+    Start-Sleep -s 2
+
+    Write-Host "B.." -NoNewline
+
+    Start-Sleep -s 2
+
+    Write-Host "C.." -NoNewline
+
+    Start-Sleep -s 2
+
+    Write-Host "D.." -NoNewline
+
+    Start-Sleep -s 2
+
+    Write-Host "E.." -NoNewline
+
+    Start-Sleep -s 2
+
+    Write-Host "F.."
+
+
+    Write-Host "1.." -NoNewline
+
+    Start-Sleep -s 1
+
+    Write-Host "`r2.." -NoNewline
+
+    Start-Sleep -s 1
+
+    Write-Host "`r3.." -NoNewline
+
+    Start-Sleep -s 1
+
+    Write-Host "`r4.." -NoNewline
+
+    Start-Sleep -s 1
+
+    Write-Host "`r5.." -NoNewline
+
+    Start-Sleep -s 1
+
+    Write-Host "`r6.." -NoNewline
+
+    Start-Sleep -s 1
+
+    Write-Host "`r7.." -NoNewline
+
+    Start-Sleep -s 1
+
+    Write-Host "`r8.." -NoNewline
+
+    Start-Sleep -s 1
+
+    Write-Host "`r9.." -NoNewline
+
+    Start-Sleep -s 1
+
+    Write-Host "`r10!"
